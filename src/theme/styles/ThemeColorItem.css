@@ -1,0 +1,22 @@
+.theme-color-container .colors-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.theme-color-container input{
+    display: none;
+}
+
+.theme-color-container label{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.theme-color-container .isSelectedColor{
+    border: 3px solid var(--color-text);
+}
+
+

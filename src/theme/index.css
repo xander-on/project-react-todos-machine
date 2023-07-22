@@ -1,0 +1,78 @@
+:root {
+  --color-primary: rgb(190, 190, 190);
+  --color-secondary: rgb(185, 185, 185);
+  
+  --color-text: black;
+  --color-text2: rgba(0, 0, 0, .6);
+
+  --background-color: rgb(242, 244, 245);
+  --background-color2: rgb(255, 255, 255);
+
+  --color-text-disabled: rgb(167, 166, 166);
+  --color-background-disabled: rgb(213, 213, 213);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  color: var(--color-text);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin: 0 0px;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.container{
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.darkmode{
+  --color-secondary: rgb(104, 104, 104);
+  
+  --color-text: white;
+  --color-text2: rgba(255, 255, 255, .6);
+  
+  --background-color: rgb(28, 34, 37);
+  --background-color2: rgb(27, 29, 30);
+
+  --color-text-disabled: rgb(167, 166, 166);
+  --color-background-disabled: rgb(48, 52, 54, 1);
+}
+
+.color-red{
+  --color-primary: rgb(206, 5, 5);
+}
+
+.color-blue{
+  --color-primary: rgb(0, 42, 156);
+}
+
+.color-yellow{
+  --color-primary: rgb(214, 214, 0);
+}
+
+.color-pink{
+  --color-primary: rgb(235, 136, 152);
+}
+
+.color-green{
+  --color-primary: rgb(67, 182, 0);
+}
+
+.color-primary{
+  color: var(--color-primary);
+}
+
+.background-primary{
+  background-color: var(--color-primary);
+  color: white;
+}
